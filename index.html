@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notification test</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div id="btn_container">
+	<button onclick="createNotification(successMsg, 'successBtn')" id="success_btn">success</button>
+	<button onclick="createNotification(errorMsg, 'errorBtn')" id="error_btn">error</button>
+	<button onclick="createNotification(infoMsg, 'infoBtn')" id="info_btn">info</button>
+	<button onclick="createNotification(warningMsg, 'warningBtn')" id="warning_btn">warning</button>
+</div>
+
+<div id="notification_container"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
